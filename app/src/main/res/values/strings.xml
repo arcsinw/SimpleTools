@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Simple Tools</string>
+    <string name="transparent_statusbar">Transparent StatusBar</string>
+    <string name="launcher_picker">Launcher Picker</string>
+    <string name="toogle_statusbar">Toogle StatusBar</string>
+</resources>
