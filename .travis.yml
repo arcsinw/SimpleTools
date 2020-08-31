@@ -16,4 +16,5 @@ android:
 
 
 script:
-  - chmod +x ./gradlew :app:assembleRelease
+  - chmod +x gradlew
+  - ./gradlew :app:assembleRelease
