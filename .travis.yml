@@ -3,7 +3,7 @@ sudo: true
 
 android:
   components:
-    - android-27
+    - android-28
     - tools
     - build-tools-28.0.3
     - com.android.tools.build:gradle:3.6.1
