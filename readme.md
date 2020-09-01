@@ -4,3 +4,7 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/arcsinw/simpletools/badge)](https://www.codefactor.io/repository/github/arcsinw/simpletools)
 
 Collection of simple tools
+
+1. open launcher picker
+2. hide status bar
+3. make status bar' background transparent
