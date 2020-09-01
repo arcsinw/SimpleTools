@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -25,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
         intent.setClassName("android",
                 "com.android.internal.app.ResolverActivity");
         startActivity(intent);
-
     }
 
     public void transparentStatusBar(View view) {
@@ -45,6 +43,10 @@ public class MainActivity extends AppCompatActivity {
         WindowManager.LayoutParams attrs = getWindow().getAttributes();
         attrs.flags ^= WindowManager.LayoutParams.FLAG_FULLSCREEN;
         getWindow().setAttributes(attrs);
-        Toast.makeText(this, "EEE", Toast.LENGTH_SHORT).show();
     }
+
+    public void openFiles(View view) {
+        startActivity(new Intent(this, PhotosActivity.class));
+    }
+
 }

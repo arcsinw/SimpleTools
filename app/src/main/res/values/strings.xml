@@ -3,4 +3,9 @@
     <string name="transparent_statusbar">Transparent StatusBar</string>
     <string name="launcher_picker">Launcher Picker</string>
     <string name="toogle_statusbar">Toogle StatusBar</string>
+    <string name="open_files">Open Files</string>
+    <string name="title_activity_photos">PhotosActivity</string>
+    <string name="tab_collection">Collection</string>
+    <string name="tab_albums">Albums</string>
+    <string name="tab_folders">Folders</string>
 </resources>
